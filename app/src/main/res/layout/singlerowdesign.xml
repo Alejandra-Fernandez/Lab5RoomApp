@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="6dp">
+
+        <TextView
+            android:id="@+id/recid"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/recfname"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MachuPicchu"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/reclname"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cuzco"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/delbtn"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete" />
+
+        <ImageButton
+            android:id="@+id/edbtn"
+            android:layout_width="33dp"
+            android:layout_height="40dp"
+            android:src="@drawable/edit" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
